@@ -1,0 +1,67 @@
+@import "variables";
+
+@mixin piedepagina {
+    text-align: center;
+    color: $color-principal;
+
+}
+    
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(/img/fondos-abstractos-para-paginas-web-para-fondo-celular-en-hd-12.jpg);
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+header {
+    text-align: center;
+    color: $color-principal;
+  
+    &:hover {
+      background-color: brown;
+      transition: 4s;
+    
+    }
+    li {
+        display: inline-block;
+        color: blue;
+      }
+  }
+
+
+  
+  footer {
+    @include piedepagina;
+  }
+    a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    text-transform: uppercase;
+  
+    &:hover {
+      background-color: black;
+      transition: 4s;
+    }
+  }
+
+.carousel-inner{
+    max-width: 90%;
+    width: 600px;
+    img{
+        margin: auto; 
+    }
+    
+}  
+
+nav {
+    @extend header;
+    color: aqua;
+    
+}
+
+div{
+    @include piedepagina;
+} 
