@@ -1,0 +1,54 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-image: url(/img/fondos-abstractos-para-paginas-web-para-fondo-celular-en-hd-12.jpg);
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+header, nav {
+  text-align: center;
+  color: aqua;
+}
+header:hover, nav:hover {
+  background-color: brown;
+  transition: 4s;
+}
+header li, nav li {
+  display: inline-block;
+  color: blue;
+}
+
+footer {
+  text-align: center;
+  color: aqua;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: white;
+  text-transform: uppercase;
+}
+a:hover {
+  background-color: black;
+  transition: 4s;
+}
+
+.carousel-inner {
+  max-width: 90%;
+  width: 600px;
+}
+.carousel-inner img {
+  margin: auto;
+}
+
+nav {
+  color: aqua;
+}
+
+div {
+  text-align: center;
+  color: aqua;
+}
+
+/*# sourceMappingURL=estilo.css.map */
